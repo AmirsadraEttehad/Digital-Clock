@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+
 *,
 *:before,
 *:after {
@@ -7,7 +9,7 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(135deg, #009FFF, #ec2F4B);
+  background: linear-gradient(135deg, #009fff, #ec2f4b);
 }
 .clock {
   width: 550px;
@@ -39,4 +41,13 @@ body {
   font-weight: bolder;
   font-size: 60px;
   color: #ffffff;
+}
+.title {
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 45px;
+  text-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  color: #fff;
 }
