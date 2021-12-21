@@ -24,5 +24,5 @@ setInterval(() => {
   minuteElem.innerHTML = nowMinute;
   secondsElem.innerHTML = nowSecond;
 
-  
+
 }, 1000);
